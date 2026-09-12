@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Logos Lexicon — Support</title>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+           background: #f5f5f7; color: #1d1d1f; line-height: 1.6; }
+    header { background: #1d1d1f; padding: 48px 24px 56px; text-align: center; }
+    header h1 { color: #fff; font-size: 32px; font-weight: 700; margin-bottom: 8px; }
+    header p { color: rgba(255,255,255,0.6); font-size: 16px; }
+    main { max-width: 680px; margin: -24px auto 0; padding: 0 20px 80px; }
+    .card { background: #fff; border-radius: 12px; padding: 28px;
+            margin-bottom: 20px; box-shadow: 0 1px 6px rgba(0,0,0,0.08); }
+    .card h2 { font-size: 18px; font-weight: 600; margin-bottom: 8px; }
+    .card p { color: #555; font-size: 15px; margin-bottom: 16px; }
+    a.btn { display: inline-block; background: #0071e3; color: #fff;
+            text-decoration: none; padding: 10px 20px; border-radius: 8px;
+            font-size: 14px; font-weight: 500; }
+    details { border-bottom: 1px solid #e5e5e5; }
+    details:last-child { border-bottom: none; }
+    summary { padding: 18px 20px; font-size: 15px; font-weight: 500;
+              cursor: pointer; list-style: none; display: flex;
+              justify-content: space-between; align-items: center; }
+    summary::-webkit-details-marker { display: none; }
+    summary::after { content: '+'; font-size: 20px; color: #0071e3; }
+    details[open] summary::after { content: '\2212'; }
+    .faq-answer { padding: 0 20px 18px; font-size: 14px; color: #555; line-height: 1.7; }
+    footer { text-align: center; padding: 32px 24px; font-size: 13px; color: #888;
+             border-top: 1px solid #e5e5e5; }
+    footer a { color: #1d1d1f; text-decoration: none; font-weight: 500; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Logos Lexicon Support</h1>
+    <p>Interlinear Greek, Hebrew, Latin &amp; Septuagint Bible study</p>
+  </header>
+  <main>
+    <div class="card">
+      <h2>Get in Touch</h2>
+      <p>Have a question, found a bug, or want to request a feature? We typically respond within 1–2 business days.</p>
+      <a class="btn" href="mailto:icfdevelopnow@gmail.com">Email Support</a>
+    </div>
+
+    <div class="card" style="padding: 0; overflow: hidden;">
+      <details open>
+        <summary>Do I need an account to use the app?</summary>
+        <div class="faq-answer">
+          No. Study, Read &amp; Listen, Prayer, Devotional and Languages all work fully offline with no sign-in.
+          The only account is the optional cloud sync in Settings, which lets your bookmarks, notes, vocabulary
+          and dream journal follow you to another device.
+        </div>
+      </details>
+      <details>
+        <summary>Is my data private?</summary>
+        <div class="faq-answer">
+          Yes. Everything you save is stored on your device by default. Nothing leaves your phone unless you
+          turn on cloud sync yourself. See our <a href="./index.html">Privacy Policy</a> for full details.
+        </div>
+      </details>
+      <details>
+        <summary>How do I read the Bible in the original languages?</summary>
+        <div class="faq-answer">
+          Open Study from the home screen, choose Greek, Hebrew, Latin, or Septuagint, and tap any word for its
+          lemma, parsing, and gloss. The Latin lexicon (Whitaker's WORDS) works fully offline.
+        </div>
+      </details>
+      <details>
+        <summary>How does the optional AI companion work?</summary>
+        <div class="faq-answer">
+          You provide your own API key (Groq, Google Gemini, or Anthropic) or your own deployed endpoint in
+          Settings. Your question is sent straight from your device to the provider you chose — we never see it.
+        </div>
+      </details>
+      <details>
+        <summary>How do I report a bug or request a feature?</summary>
+        <div class="faq-answer">
+          Email <a href="mailto:icfdevelopnow@gmail.com">icfdevelopnow@gmail.com</a> with a description of what
+          happened, the screen you were on, and your iOS version.
+        </div>
+      </details>
+      <details>
+        <summary>How do I delete my account or synced data?</summary>
+        <div class="faq-answer">
+          Sign out in Settings → Cloud sync to stop syncing at any time, or email us to request full deletion
+          of your account and synced data.
+        </div>
+      </details>
+    </div>
+  </main>
+  <footer>
+    <p>Logos Lexicon &nbsp;·&nbsp; <a href="./index.html">Privacy Policy</a>
+       &nbsp;·&nbsp; <a href="mailto:icfdevelopnow@gmail.com">Contact</a></p>
+  </footer>
+</body>
+</html>
